@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ASCENT INTERFACE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: #050505;
+    color: #00ff88;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 30px 120px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Glitch uniquement pour le titre */
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+}
+.glitch::before {
+    color: #00ff88;
+    transform: translate(-1px, 0);
+}
+.glitch::after {
+    color: #00ff88;
+    transform: translate(1px, 0);
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    opacity: 0.9;
+}
+
+.section {
+    margin-bottom: 80px;
+}
+
+.section-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+p {
+    font-size: 16px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.image-block {
+    margin: 40px 0;
+}
+
+.image-block img {
+    max-width: 100%;
+    border: 1px solid #00ff88;
+}
+
+.caption {
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 8px;
+}
+
+.footer {
+    font-size: 12px;
+    opacity: 0.5;
+    border-top: 1px solid #00ff88;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="glitch" data-text="ASCENT INTERFACE">ASCENT INTERFACE</h1>
+<h2>Neural Immersion Prototype — Restricted Circulation</h2>
+
+<div class="section">
+<p>This system was not designed for immersion.<br>
+It was designed to reveal new worlds.</p>
+
+<p>The interface captures latent neural imagery<br>
+and reconstructs it using AI with non-linear inference.</p>
+
+<p><strong>It does not create worlds.<br>
+It reveals what already exists.</strong></p>
+</div>
+
+<div class="section">
+<div class="section-title">Neural Capture Module</div>
+<p>
+Multi-electrode EEG array.<br>
+Low-latency cortical signal acquisition.<br>
+Non-invasive.
+</p>
+
+<!-- FUTUR SCHÉMA -->
+<div class="image-block">
+    <img src="images/schema-electrodes.png" alt="Electrode layout diagram">
+    <div class="caption">Electrode distribution and cortical contact zones</div>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Interpretation Layer</div>
+<p>
+Signal abstraction.<br>
+Pattern extraction.<br>
+Latent image reconstruction (AI-assisted).
+</p>
+
+<div class="image-block">
+    <img src="images/schema-signal.png" alt="Signal interpretation diagram">
+    <div class="caption">Signal translation and latent reconstruction pipeline with AI.</div>
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">Output</div>
+<p>
+Visual structures.<br>
+Symbolic environments.<br>
+Recursive mental spaces.
+</p>
+<p>Output is not a simulation.<br>
+It is a translation.</p>
+</div>
+
+<div class="section">
+<div class="section-title">Warning</div>
+<p>This device was not approved for public use.</p>
+<p>
+Prolonged exposure may result in:<br>
+– Dissociation<br>
+– Identity fragmentation<br>
+– Persistent symbolic hallucinations<br>
+</p>
+<p>
+Users reported the emergence of recurring structures.<br>
+These structures were not programmed.
+</p>
+</div>
+
+<div class="section">
+<div class="section-title">Access</div>
+<p>This prototype is based on government research and not commercially available.</p>
+<p>
+Distribution is limited to closed networks.<br>
+Units were never meant to leave the research phase.
+</p>
+<p>If you have access,<br>
+you were not supposed to.</p>
+</div>
+
+<div class="footer">
+ASCENT INTERFACE v0.9 — Experimental System
+</div>
+
+</div>
+
+</body>
+</html>
